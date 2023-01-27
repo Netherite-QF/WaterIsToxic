@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wateristoxic",
+  "version": "${version}",
+  "name": "Water Is Toxic",
+  "description": "",
+  "authors": [
+    "Goulixiaoji"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.netheriteqf.wateristoxic.client.WaterIsToxicClient"
+    ],
+    "main": [
+      "com.netheriteqf.wateristoxic.WaterIsToxic"
+    ]
+  },
+  "mixins": [
+    "WaterIsToxic.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "qwq": "*"
+  }
+}
